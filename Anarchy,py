@@ -5,48 +5,47 @@ import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
-#import time,random,sys,json,codecs,threading,glob,urllib,urllib2
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,subprocess
 
 
 cl = LINETCR.LINE()
-cl.login(token="EmYrKQOWwVujvhJ4Escd.47RkVqVs5RnD5ptDT6AfZq.6iWP7EDOg/PY4Notc37Ai8hXrPAWMqrBe/dKNid3+6c=")
+cl.login(token="EpKHukQymjuYld2E4l46.j/tdO7lwB+C03rcYZKrK1G.bRELBdVyVchYVIp/Yb0edndKuFfABG+ygsAOsaPSoBc=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmBhSKzTvEygq1I3q9a2.w39j/nEWC0t+UL75niLmqG.3kNs0uwQynoaKKfmm2XBNsRF9xmklG6zCGsS+7g622Y=")
+ki.login(token="EprbEb0YfrZ0gWkaznSe.GJq7GBzzMu2nGqyaPN/ipG.3M80+tYLS39DVd1w10ds9HNYWT8aGKhsmpn9pRSv2mc=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmI0aOJfO9BdrGyQMMDc.kn016fwuFNSfSjmJxfhnha.IpDnc94MRftp6nY42n7GzCtuFRoGf5dyB8G6wHrjFWY=")
+kk.login(token="EpTFe7jZ7XUuiz0V7Wob.lG3J7fc5sDPatBXqhRBQsW.SZcL0GkVS5tg7xgB03n6+hcEAGsn45R4pRaU/fB5Dvw=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Emj5nU8BfFMNakzuooY1.9p8zXrfhrLmh174NoW6PGq.e+fttjoUc4G+e+3e4AFxkt9ibScPMmSeeUL1Gj/No7A=")
+kc.login(token="EpYj5Zpa2tzIhNZ8dbo5.Q0OoFYJHaR1Q19cGwwRPHq.BnW9xpazVCIXzkWGOvXiM6UmKygLgyGb4hZXImIZYGg=")
 kc.loginResult()
 
 kb = LINETCR.LINE()
-kb.login(token="Emmbby28VNq1gXBd3IH7.3hVg5XN6lZ7Ix1fGZIa6fW.sLboDUI7JtsBDesAkjWO6G+qlMMylMiTrFXSJTj83hg=")
+kb.login(token="EpyWnv79KfCXYjd26sB5.PT0fO6oRxm3RJkmvumHfXq.JuNW39ljQ57bol2MhAD6p78nTJ/ZOZjMlnNPOr+i6H8=")
 kb.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EmM9wsaBBoZUbxRUM9za.ASXSVcykGHrpTqYjZb0l2G.J6MzXxIFc4fykCd6PBWDwpd/yGh36tWFt6FYzwJlfEc=")
+kd.login(token="EpL00Cx9JvP8WxkFkXY4.V5Kns0dIiMAgkfsSwJGeDa.HtdeMBeyLnx5G4CC0fgzZmFy0p5720txaFR2y5bv04c=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="Em9K46eRlQmUpqHD9HU3.7+EQA3K2ElJcbRqZDcciuW.ZChT7SCF0yy7iuOj6CNiQnStFc5sJx0uAmm2hmO6aSA=")
+ke.login(token="EpQGHVCEhXzXMEo69sKf.N9ifRDj66jRikuggJ75EpW.jklAq9vZnhj0RyZ9FaNrpLC298lcZDqHbjeOKUCetFE=")
 ke.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="Em5DE85gOLmjwNfuWdF3.gdXRD5sg6uU3wk2zTTwXGW.c28QMgp8KN1i7pDP6JS9R6tfFlUEW0wH9gxpIcQiSKA=")
+kg.login(token="EpP9ZREhiSacaaazSMwa.2KFlz0EhpdEJB9mmPXtIwG.Ypvfn7shqLzJsdD51MvjLVsQcXKbsOYURYy5KneW6YU=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EmI0Ay9gcUVtqr3wihlc.cwogcSzbtJtLt+f0js39Ra.BrmS9c5E598BcK7ktnYGYYfS7HSqqbtC13OzcE7hFZw=")
+kh.login(token="EpU8QXjdl4PcxEZBBrLe.mze8dIVt1aOJrX3ceSwShG./bzd76zbjfVeNQKzGz+RCqbcC/PGAtWY+pSV/XUWHGI=")
 kh.loginResult()
 
 sw = LINETCR.LINE()
-sw.login(token="Emrjz9FYia0rd12nWIO5.IUzXOwoAXY7BzrgnW44oLq.QCzkBOLBBVk+S9+BUKbTV3i6ATR0jfnDwTxXO/CzDTo=")
+sw.login(token="EptMThQAv8bO8XAvs8X7.qt7QN+RGBpWDsmiOID7T1W.s7/Iihf/s5XDRhW7dHEtFzfNQCq9C3HYYbinnQEkMPc=")
 sw.loginResult()
 
 print u"login success"
@@ -54,92 +53,71 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-
-~~~~~~~~~~Gûñtûr_₱õèñ¥æ_§£êræ~~~~~~~~~~~~~
-
-
-              ✈ ̶̶̶✮卐D̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎S̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎T̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎O̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎Y̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎S卐✮--✈
-
-
-
-╔══════════════
-╠ 卐✮Ginfo 「View group info」
-╠ 卐✮Bot cancel 「Cancel all pending」
-╠ 卐✮Say 「Text」
-╠ 卐✮ Gn: 「Name group」
-╠ 卐✮ Mymid 「Cek your mid」
-╠ 卐✮Welcome on
-╠ 卐✮Welcome off
-╠ 卐✮ Lurkers
-╠ 卐✮View
-╠ 卐✮Creator
-╚═════════════
-
-╔═════════════
-╠ 🦂❧❥TD absen
-╠ 🦂❧❥Say 「Text」
-╠ 🦂❧❥TD in 「All bot join」
-╠ 🦂❧❥TD out 「All bot leave」
-╠ 🦂❧❥TD copy 「@」
-╠ 🦂❧❥TD kembali 「@」
-╠ 🦂❧❥TD kick 「Mid」
-╠ 🦂❧❥TD invite 「Mid」
-╠ 🦂❧❥TD setting 「View bot setting」
-╠ 🦂❧❥TD bot 「Cek all bots」
-╠ 🦂❧❥TD cancel ,..「Cancel all pending」
-╠ 🦂❧❥TD link 「on / off」
-╠ 🦂❧❥TD play 「Cleanse this group」
-╠ 🦂❧❥Clearall 「Cleanse group」
-╠ 🦂❧❥ TD ban 「Blacklist all member」
-╠ 🦂❧❥ TD del 「Unblacklist all member」
-╠ 🦂❧❥Ginfo 「View group info」
-╠ 🦂❧❥Gcreator 「Melihat pembuat grup」
-╠ 🦂❧❥All mid 「Melihat mid bot」
-╠ 🦂❧❥Mymid 「Melihat mid sndiri」
-╠ 🦂❧❥Gift 「Gift1,Gift2,Gift3」
-╠ 🦂❧❥Spam「on / off」1\ Text
-╠ 🦂❧❥Creator 「Cek pembuat bot」
-╠ 🦂❧❥Gurl 「View group link」
-╠ 🦂❧❥Mentions 「Tag all member」
-╠ 🦂❧❥All: 「Rename all bot」
-╠ 🦂❧❥Allbio: 「Change all bio bot」
-╠ 🦂❧❥Mid 「@」
-╠ 🦂❧❥Bc: 「Text」
-╠ 🦂❧❥Admin on/off 「@」
-╠ 🦂❧❥ List admin
-╠ 🦂❧❥Spam to 「@」
-╠ 🦂❧❥ Speed
-╠ 🦂❧❥Respon
-╠ 🦂❧❥Lurkers
-╠ 🦂❧❥View
-╠ 🦂❧❥Fuck
-╠ 🦂❧❥Sayang 「@」
-╠ 🦂❧❥Mk「@」
-╠ 🦂❧❥Nk 「@」
-╠ 🦂❧❥Ban 「@」
-╠ 🦂❧❥Unban「@」
-╠ 🦂❧❥Cipok 「@」
-╠ 🦂❧❥Ban:on「Send contact」
-╠ 🦂❧❥Unban:on 「Send Contact」
-╠ 🦂❧❥Banlist
-╠ 🦂❧❥Kick ban 
-╠ 🦂❧❥╬═Mimic on/off
-╠ 🦂❧❥╬═Mimic:add 「@」
-╠ 🦂❧❥╬═Mimic:del 「@」
-╠ 🦂❧❥╬═Reject 「Cancel undanga]
-╠ 🦂❧❥╬═InviteMeTo:   [grob id]
-╠ 🦂❧❥╬═Invite      [invite member]
-╠ 🦂❧❥╬═TD leaveAllGc  
-╠ 🦂❧❥╬═Music   [jaran goyang]
-╠ 🦂❧❥╬═TD:Bc   [Bc taxt all contact]
+A̶n̶a̶r̶c̶h̶y̶ T̶e̶a̶m̶ B̶o̶t̶s̶ 
+╔══════════════════════
+╠[卐]Ginfo
+╠[卐]Bot cancel 
+╠[卐]Say 
+╠[卐]Gn: 
+╠[卐]Myid 
+╠[卐]Welcome on
+╠[卐]Welcome off
+╠[卐]Lurkers
+╠[卐]View
+╠[卐]Creator
+╠[卐]Absen
+╠[卐]Join all
+╠[卐]. 
+╠[卐]Copy @
+╠[卐]Backup @
+╠[卐]kick 「Mid」
+╠[卐]invite 「Mid」
+╠[卐]setting 「View bot setting」
+╠[卐]cancel
+╠[卐]link 「on / off」
+╠[卐]play 「Cleanse this group」
+╠[卐]Clearall 「Cleanse group」
+╠[卐]ban 「Blacklist all member」
+╠[卐]del 「Unblacklist all member」
+╠[卐]Gcreator 「Melihat pembuat grup」
+╠[卐]All mid 「Melihat mid bot」
+╠[卐]Gift 「Gift1,Gift2,Gift3」
+╠[卐]Spam「on / off」1\ Text
+╠[卐]Creator 「Cek pembuat bot」
+╠[卐]Gurl 「View group link」
+╠[卐]Mentions 「Tag all member」
+╠[卐]All: 「Rename all bot」
+╠[卐]Allbio: 「Change all bio bot」
+╠[卐]Mid 「@」
+╠[卐]Bc: 「Text」
+╠[卐]List admin
+╠[卐]Spam to 「@」
+╠[卐]Speed
+╠[卐]Respon
+╠[卐]Lurkers
+╠[卐]View
+╠[卐]Fuck
+╠[卐]Sayang 「@」
+╠[卐]Mk「@」
+╠[卐]Nk 「@」
+╠[卐]Ban 「@」
+╠[卐]Unban「@」
+╠[卐]Cipok 「@」
+╠[卐]Ban:on「Send contact」
+╠[卐]Unban:on 「Send Contact」
+╠[卐]Banlist
+╠[卐]Kick ban 
+╠[卐]Mimic on/off
+╠[卐]Mimic:add 「@」
+╠[卐]Mimic:del 「@」
+╠[卐]Reject 「Cancel undanga]
+╠[卐]InviteMeTo:   [grob id]
+╠[卐]Invite      [invite member]
+╠[卐]leaveAllGc  
+╠[卐]Music   [jaran goyang]
+╠[卐]TD:Bc   [Bc taxt all contact]
 ╚════════════
-      ❉  ❥ ❦ ❧B£æ¢k ò₣₣ Đ€štró¥ēr ❧ ❦  ❥ ❉ 
-
-╚════════════
-        ☞ http://line.me/ti/p/~gundul_gundul_pacul ___________________
-penting...!!!: Atas comment member,
-   Bawah comment admin & staff only
-╚════════════"""
+"""
 
 helpMessage1 ="""  *** Set Group ***
 
@@ -166,11 +144,7 @@ Fmid = ke.getProfile().mid
 Gmid = kg.getProfile().mid 
 Hmid = kh.getProfile().mid 
 Imid = sw.getProfile().mid 
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u0f3b4d62ba8de5b4cb83f71613c75be2","ue3bacabd0bd2e6b35de4f4ddb7a685cd","u5b7f49f8d7b07344ffba5ef934894c42","u28dd35e855947e7b05b093235c51cd1c","uf4ff19c51147465307d7be273b0ea981","u6acc6cbc260a82144fb50c89cc1d0bda","udc7bc6e719fa2f3ee25f5160ce203a17"]
-admin = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056","ue3bacabd0bd2e6b35de4f4ddb7a685cd","udc7bc6e719fa2f3ee25f5160ce203a17","u5b7f49f8d7b07344ffba5ef934894c42","u70193ea1d746ef85b04145c758278e24"]
-staff = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056"]
-owner = ["u0f3b4d62ba8de5b4cb83f71613c75be2"]
-adminMID = 'u0f3b4d62ba8de5b4cb83f71613c75be2','u06856881c176ae1144cc757861d15056'
+admin = ["u0e6f484b1969f3ef5940b055bdc4d798"]
 wait ={ 
     'contact':False,
     'autoJoin':True,
@@ -230,6 +204,10 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
+backup = ki.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 
 def sendMessage(to, text, contentMetadata={}, contentType=0):
@@ -1435,9 +1413,9 @@ def bot(op):
                     cl.updateGroup(X)
                 else:
                     cl.sendText(msg.to,"It can't be used besides the group.")
-            elif "TD kick " in msg.text:
+            elif "kick " in msg.text:
 	      if msg.from_ in admin:
-                midd = msg.text.replace("TD kick ","")
+                midd = msg.text.replace("kick ","")
                 cl.kickoutFromGroup(msg.to,[midd])
               else:
                   msg.contentType = 13
@@ -1588,7 +1566,7 @@ def bot(op):
                         kk.sendText(msg.to,"Can not be used outside the group")
                     else:
                         kk.sendText(msg.to,"Not for use less than group")            
-            elif msg.text in ["Qr on","TD link on"]:
+            elif msg.text in ["Qr on","link on"]:
 	      if msg.from_ in admin:
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
@@ -1660,7 +1638,7 @@ def bot(op):
                         ki.sendText(msg.to,"Can not be used outside the group")
                     else:
                         ki.sendText(msg.to,"Not for use less than group")
-            elif msg.text in ["R2 curl","R2 link off"]:
+            elif msg.text in ["R2 curl","link off"]:
                 if msg.toType == 2:
                     X = kk.getGroup(msg.to)
                     X.preventJoinByTicket = True
@@ -2537,7 +2515,7 @@ def bot(op):
                 cl.sendText(msg.to,"Your comment ⤵\n\n" + str(wait["comment"]))
             elif msg.text in ["Bot creator","Creator"]:
             	msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u0f3b4d62ba8de5b4cb83f71613c75be2'}
+                msg.contentMetadata = {'mid': 'u0e6f484b1969f3ef5940b055bdc4d798'}
                 cl.sendMessage(msg)
             elif msg.text in ["Gurl"]:
 	      if msg.from_ in admin:
@@ -3130,7 +3108,7 @@ def bot(op):
                                     kk.sendText(msg.to,"Bye")
 
 #-----------------------------------------------                   
-            elif msg.text in ["TD in"]:
+            elif msg.text in ["Join all"]:
 	      if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -3330,7 +3308,7 @@ def bot(op):
                    cl.sendText(msg.to, "Acces denied for you 😊\nKetik 「Creator」for contact admin")
 
 #-----------------------------------------------
-	    elif msg.text in ["TD all out"]:
+	    elif msg.text in ["Kabur"]:
                 gid = cl.getGroupIdsJoined()
                 gid = ki.getGroupIdsJoined()
                 gid = kk.getGroupIdsJoined()
